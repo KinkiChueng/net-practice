@@ -1,4 +1,4 @@
-package Thread;
+package Thread.p67;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

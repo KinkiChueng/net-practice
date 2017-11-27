@@ -1,9 +1,10 @@
-package Thread;
+package Thread.p67;
 
 import javax.xml.bind.DatatypeConverter;
 
 /**
- * p67
+ * p67 轮询 让获取方法返回一个标志值（或者可能抛出一个异常），直到设置了结果字段为止
+ * 主线程占用所有可用时间，工作进程没有时间完成任务
  * Created by lasia on 2017/11/24.
  */
 public class PollReturnDigest {
