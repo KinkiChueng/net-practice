@@ -1,7 +1,5 @@
 package Thread._3_7;
 
-import sun.security.jca.GetInstance;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
