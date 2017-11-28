@@ -1,4 +1,4 @@
-package Thread._3_7;
+package Thread.Callback;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
