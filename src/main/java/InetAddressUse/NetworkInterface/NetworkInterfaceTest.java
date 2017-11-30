@@ -1,4 +1,4 @@
-package NetworkInterface;
+package InetAddressUse.NetworkInterface;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;
