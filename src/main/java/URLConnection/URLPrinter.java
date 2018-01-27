@@ -6,6 +6,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /**
+ * 7-12 获取指向URLconnection的URL
  * Created by lasia on 2018/1/15.
  */
 public class URLPrinter {

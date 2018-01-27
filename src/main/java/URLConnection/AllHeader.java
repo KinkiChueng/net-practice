@@ -6,7 +6,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /**
- * 显示整个http首部
+ * 7-5 显示整个http首部
  * Created by lasia on 2018/1/15.
  */
 public class AllHeader {
