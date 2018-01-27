@@ -6,6 +6,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /**
+ * 7-2 用正确的字符集下载页面
  * Created by lasia on 2017/12/23.
  */
 public class EncodingAwareSourceViewer {
