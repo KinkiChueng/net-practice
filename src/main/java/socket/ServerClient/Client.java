@@ -19,7 +19,7 @@ public class Client extends Thread {
         //客户端一连接就可以写数据服务器了
         new sendMessThread().start();
         try {
-            //读取Sock里的数据
+            //读取Sock里的数据，读取服务器发送的消息
             InputStream s = socket.getInputStream();
             byte[] buf = new byte[1024];
             int len = 0;
@@ -40,7 +40,7 @@ public class Client extends Thread {
             try {
                 scanner = new Scanner(System.in);
                 outputStream = socket.getOutputStream();
-                String in = "";
+                String in;
                 do {
                     in = scanner.next();
                     outputStream.write(("客户端：" + in).getBytes());
