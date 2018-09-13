@@ -1,4 +1,4 @@
-package socket.ServerClient;
+package socket.ServerClientChat;
 
 import java.io.IOException;
 import java.io.InputStream;

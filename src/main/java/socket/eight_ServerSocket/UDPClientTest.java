@@ -1,4 +1,4 @@
-package socket;
+package socket.eight_ServerSocket;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

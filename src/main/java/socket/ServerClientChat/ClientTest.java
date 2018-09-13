@@ -1,4 +1,4 @@
-package socket.ServerClient;
+package socket.ServerClientChat;
 
 /**
  * Created by lasia on 2018/3/26.

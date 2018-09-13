@@ -1,7 +1,7 @@
-package socket.ServerClient;
+package socket.ServerClientChatMutiUsers;
 
 /**
- * Created by lasia on 2018/3/26.
+ * Created by lasia on 2018/3/27.
  */
 public class ServerTest {
     public static void main(String args[]) {

@@ -1,4 +1,4 @@
-package socket.ServerClient;
+package socket.ServerClientChat;
 
 import java.io.IOException;
 
@@ -22,7 +22,7 @@ public class Client extends Thread {
             //读取Sock里的数据，读取服务器发送的消息
             InputStream s = socket.getInputStream();
             byte[] buf = new byte[1024];
-            int len = 0;
+            int len;
             while ((len = s.read(buf)) != -1) {
                 System.out.println(new String(buf, 0, len));
             }

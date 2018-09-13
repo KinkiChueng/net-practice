@@ -1,4 +1,4 @@
-package netty;
+package netty.example1;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -20,7 +20,7 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
         System.out.println("Server" + request);
         //写给客户端
         String response = "我是反馈的消息";
-        ctx.writeAndFlush(Unpooled.copiedBuffer("123".getBytes()));
+        ctx.writeAndFlush(Unpooled.copiedBuffer(response.getBytes()));
     }
 
     @Override

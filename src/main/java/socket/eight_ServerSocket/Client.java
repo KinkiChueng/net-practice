@@ -1,4 +1,4 @@
-package socket;
+package socket.eight_ServerSocket;
 
 import java.io.BufferedReader;
 import java.io.IOException;
