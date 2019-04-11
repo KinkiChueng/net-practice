@@ -1,4 +1,4 @@
-package netIO.BIO.nio;
+package netIO.nio.block;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

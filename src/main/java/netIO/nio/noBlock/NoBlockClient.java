@@ -1,4 +1,4 @@
-package netIO.BIO.nio;
+package netIO.nio.noBlock;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -10,10 +10,12 @@ import java.nio.file.Paths;
 /**
  * Created by lasia on 2019/4/10.
  */
-public class BlockClient {
+public class NoBlockClient {
     public static void main(String args[]) throws IOException {
         //1,获取通道
         SocketChannel socketChannel = SocketChannel.open(new InetSocketAddress("localhost",123));
+        //切换成非阻塞模式
+        socketChannel.configureBlocking(false);
         //2,发送照片
         FileChannel fileChannel = FileChannel.open(Paths.get("/Users/lasia/Documents/PLAY/leslieLogo.jpg"));
         //3,创建buffer

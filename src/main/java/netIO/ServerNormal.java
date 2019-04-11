@@ -1,4 +1,4 @@
-package netIO.BIO;
+package netIO;
 
 import java.io.IOException;
 import java.net.ServerSocket;

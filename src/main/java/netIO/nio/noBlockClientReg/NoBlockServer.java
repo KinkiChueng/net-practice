@@ -1,4 +1,4 @@
-package netIO.BIO.noBlock;
+package netIO.nio.noBlockClientReg;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -48,7 +48,6 @@ public class NoBlockServer {
                     while (client.read(buffer)>0) {
                         //在读之前切换成读模式
                         buffer.flip();
-
                         outChannel.write(buffer);
 
                         //读完切换成写模式

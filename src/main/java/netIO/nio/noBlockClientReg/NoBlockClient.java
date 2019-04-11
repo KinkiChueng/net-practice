@@ -1,6 +1,5 @@
-package netIO.BIO.noBlockClientReg;
+package netIO.nio.noBlockClientReg;
 
-import javax.swing.text.html.HTMLDocument;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
